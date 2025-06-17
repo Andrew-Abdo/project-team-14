@@ -2,7 +2,6 @@
 from dash import html, dcc
 import pandas as pd
 import plotly.graph_objects as go
-from app import app
 
 
 df = pd.read_csv("data/actes-criminels.csv", parse_dates=["DATE"])
